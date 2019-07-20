@@ -14,6 +14,6 @@ app.get('/get', (req, res)=>{
 	console.log('hey i am get');
 	res.send(htmlcode);
 })
-app.listen(80, (a, b)=>{
+app.listen(3000, (a, b)=>{
 	console.log('server is running');
 })
