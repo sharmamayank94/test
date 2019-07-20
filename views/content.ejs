@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+oco
+</title>
+</head>
+<body>
+
+
+
+<div id ="placeholder"></div>
+
+<script>
+	console.log('hwoa');
+
+fetch('http://localhost:3000/get')
+.then(response=>{
+	return response.text();
+})
+.then(data=>{
+	document.querySelector('#placeholder').innerHTML = data;
+});
+
+
+
+</script>
+</body>
+</html>
